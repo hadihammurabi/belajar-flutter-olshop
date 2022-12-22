@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:olshop/features/home/widget/categories.dart';
 import 'package:olshop/features/home/widget/offers.dart';
 import 'package:olshop/widgets/app_bar.dart';
 
@@ -19,10 +20,17 @@ class HomeScreen extends StatelessWidget {
             Container(
               color: Colors.white,
               width: double.infinity,
-              padding: EdgeInsets.only(top: 15),
-              child: Offers(),
+              padding: const EdgeInsets.only(top: 15),
+              child: const Offers(),
             ),
-            
+
+            Container(
+              color: Colors.white,
+              width: double.infinity,
+              padding: const EdgeInsets.only(top: 15, left: 10, right: 10, bottom: 10),
+              child: const Categories(),
+            ),
+
           ],
         ),
       ),

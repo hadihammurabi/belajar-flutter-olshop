@@ -5,7 +5,7 @@ class Offers extends StatelessWidget {
 
   Widget buildCards(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 5, vertical: 10),
+      margin: const EdgeInsets.symmetric(horizontal: 5),
       child: Card(
         color: Colors.white,
         child: Container(
